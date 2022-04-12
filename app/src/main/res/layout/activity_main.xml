@@ -7,11 +7,47 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/t0"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="150dp"
-        android:hint="Enter Some Data"
+        android:layout_marginTop="100dp"
+        android:hint="Enter ID"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/t1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:hint="Enter Name"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/t2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:hint="Enter Course"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/t3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:hint="Enter Duration"
         android:textColor="@color/black"
         android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,10 +57,10 @@
     <Button
         android:layout_width="300dp"
         android:layout_height="70dp"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="32dp"
         android:onClick="process"
         android:text="Insert"
-        app:layout_constraintEnd_toEndOf="@+id/editText"
-        app:layout_constraintStart_toStartOf="@+id/editText"
-        app:layout_constraintTop_toBottomOf="@+id/editText" />
+        app:layout_constraintEnd_toEndOf="@+id/t3"
+        app:layout_constraintStart_toStartOf="@+id/t3"
+        app:layout_constraintTop_toBottomOf="@+id/t3" />
 </androidx.constraintlayout.widget.ConstraintLayout>
