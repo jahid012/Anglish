@@ -8,6 +8,43 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:141213817225:android:f8ef11f7650a3e3f43a958",
+        "android_client_info": {
+          "package_name": "com.appsians.strangers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "141213817225-5clfrn6b0tm571o68v0jon2bns279rgh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.appsians.strangers",
+            "certificate_hash": "508089f25c143d90407ba7086049c120f449da21"
+          }
+        },
+        {
+          "client_id": "141213817225-26m7n23l0lcl6orkrupure7kho79ple1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6XUi4EUAMylb3R5xGoQ_UGL91B6zdK2c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "141213817225-26m7n23l0lcl6orkrupure7kho79ple1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:141213817225:android:4eb0f48979f4791d43a958",
         "android_client_info": {
           "package_name": "com.learn.anglish"
